@@ -42,3 +42,9 @@ img {
   width: 50%;
   flex-wrap: wrap;
 }
+.welcometitle {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  margin: 50px;
+}
