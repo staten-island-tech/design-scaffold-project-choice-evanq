@@ -48,3 +48,99 @@ img {
   padding: 50px;
   margin: 50px;
 }
+.theme-btn {
+  width: 3em;
+  height: 3em;
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.theme-btn img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+:root,
+:root.light {
+  --bg-color: #fff;
+  --text-color: #123;
+}
+
+:root.dark {
+  --bg-color: #121212;
+  --text-color: #45adfe;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.theme-btn.light {
+  display: none;
+}
+
+.dark .theme-btn.light {
+  display: block;
+  background-color: #fff;
+}
+
+.dark .theme-btn.dark {
+  display: none;
+}
+:root,
+:root.light {
+  --bg-color: #d6e8f5;
+  --text-color: #0a1c29;
+  --bg-url: url(//image-url);
+  --font-family: "Fredoka One", cursive;
+}
+
+:root.dark {
+  --bg-color: #0a1c29;
+  --text-color: #45adfe;
+  --bg-url: url(//image-url);
+  --font-family: "Alfa Slab One", cursive;
+}
+
+body {
+  background-image: var(--bg-url);
+  background-size: cover;
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+:root,
+:root.light {
+  --bg-color: #fff;
+  --text-color: #123;
+}
+
+:root.dark {
+  --bg-color: #121212;
+  --text-color: #696d7d;
+}
+
+:root.blue {
+  --bg-color: #05396b;
+  --text-color: #e7f1fe;
+}
+
+:root.pink {
+  --bg-color: #ffcad4;
+  --text-color: #e75480;
+}
+
+:root.space {
+  --bg-color: #000;
+  --text-color: #f2bd16;
+  --bg-url: url(//space);
+  --font-family: "Press Start 2P", cursive;
+}
+
+:root.nyan {
+  --bg-color: #013367;
+  --text-color: #fff;
+  --bg-url: url(//nyan);
+  --font-family: "Comic Neue", cursive;
+}
