@@ -8,6 +8,126 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <div class="header">
+      <a class="items" href="#top">Home</a>
+      <a class="items" href="#food">Foods</a>
+      <a class="items" href="#attractions">Attractions</a>
+      <a class="items" href="#animals">Wildlife</a>
+      <a class="items" href="#socials">Socials</a>
+    </div>
+
+    <div class="australia">Australia</div>
+
+    <div class="parental">
+      <div class="children">
+        <p class="paragraph">
+          Continental roll is an Australian sandwich influenced by Italian
+          cuisine. The sandwich consists of a crusty and chewy bread roll filled
+          with cheese, Italian cold cuts, usually mixed meat mortadella, salami,
+          and coppa and a variety of condiments.
+        </p>
+
+        <img
+          class="images"
+          src="https://tse2.mm.bing.net/th?id=OIP.FQwmppBhpGBDbbeR8qR-pwHaE3&pid=Api&P=0&w=247&h=162"
+          alt="continental"
+        />
+      </div>
+
+      <div class="children">
+        <p class="paragraph">
+          Fritz and sauce is a classic Australian sandwich that's especially
+          beloved by children. It consists of two slices of bread, a bit of
+          tomato sauce, and fritz. Fritz is a type of cheap sausage meat that's
+          believed to contain beef, lamb, and pork trimmings, starch, flour, and
+          seasonings.
+        </p>
+
+        <img
+          class="images"
+          src="https://cdn.tasteatlas.com/images/dishes/8a13c01997c042acb40e375bc1607be1.jpg"
+          alt="fritz"
+        />
+      </div>
+
+      <div class="children">
+        <p class="paragraph">
+          Dagwood dog is a popular Australian festival staple consisting of a
+          hot dog on a stick that is dipped in batter, then deep-fried in hot
+          oil. Before serving, the tip of Dagwood dog is typically dipped in
+          tomato sauce, making it even tastier.
+        </p>
+
+        <img
+          class="images"
+          src="https://tse2.mm.bing.net/th?id=OIP.cqxuDlJcDICnpivRStG0rAHaE3&pid=Api&P=0&w=264&h=173"
+          alt="corndog"
+        />
+      </div>
+    </div>
+
+    <style>
+                              .header {
+                          display: flex;
+                          justify-content: space-evenly;
+                          align-items: flex-start;
+                          text align: center;
+                          flex-wrap: wrap;
+                          background-color: black;
+                          width: 100%;
+                          height:6rem;
+            position:fixed;
+            z-index: 5;
+                        }
+                        .items{
+                  padding-top: 3rem;
+                  font-size: 2rem;
+                  color: purple;
+                        }
+                        .australia{
+                          background-image: url(https://www.hdwallpapers.in/download/australia_brisbane_gold_coast_ocean_during_sunrise_hd_travel-HD.jpgg);
+                          height: 33rem;
+                          width: 100%;
+                          display: flex;
+                          justify-content: space-evenly;
+                          align-items: flex-start;
+                          text align: center;
+                          flex-wrap: wrap;
+                          font-size: 6rem;
+                          padding-top: 20rem;
+                          color: purple;
+                        }
+                        .parental{
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      text-align: center;
+      flex-wrap: wrap;
+      color:white;
+
+                        }
+                        .children{
+                          width: 33rem;
+                          height: 40rem;
+                          border: 2px solid purple;
+                          text-align: center;
+                          background-color: black;
+                          box-shadow: 4px 4px 8px;
+                          margin-bottom: 3em;
+
+                        }
+                        .paragraph{
+                          border: 3px solid purple;
+                          margin: 7px 7px 7px 7px;
+                          font-size: 2rem;
+                        }
+                        .images{
+                          width: 75%;
+                          height: 50%;
+                        }
+    </style>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
